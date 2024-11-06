@@ -1,0 +1,294 @@
+.bground{
+  width: 100%;
+  height: 457px;
+  position: relative;
+  background-image: url('./assets/fcb.png'); /* Replace with your image path */
+  color: white; /* Text color to make it visible over the background *
+  background-color: aquamarine;*/
+  display: flex;
+  justify-content: start;
+  align-items: start;
+   gap: 150px;
+}
+
+.for-fl{
+  width: 59px;
+  height: 59px;
+  margin-top: 27px;
+  margin-left: 70px;
+}
+
+header{
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  gap: 96px;
+}
+nav{
+  width:38%;
+  height: auto;
+  margin-top: 27px;
+}
+
+.hamburger{
+  position: absolute;
+   right: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: none;
+}
+
+.hamburger-menu{
+  width: 30px;
+  height:5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  margin-top: 5px;
+  
+}
+
+.lii{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.lii   li, .lii a {
+ text-decoration: none;
+ color: #fff;
+ list-style: none;
+ font-weight: 800;
+ font-size: 16px;
+ 
+}
+.lii li:hover{
+  color: #f22222;
+  transition: 0.3s ease-in-out;
+}
+.player{
+  margin-top: -22px;
+}
+
+.vp{
+  margin-top: 44px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap:40px;
+  margin-left: 70px;
+}
+.forp{
+  color: #f4f4f4;
+  padding-left: 70px;
+ 
+}
+
+.bred{
+  padding-top: 68px;
+  padding-left: 70px;
+  color: #f4f4f4;
+
+}
+.sec-sec{
+  width: 100%;
+  height:auto;
+  background-color: #f4f4f4;
+  color: #000;
+  margin-top: 45px;
+  padding-bottom: 46px;
+}
+.tui{
+  flex-wrap: wrap;
+ 
+}
+.cont{
+  background-image: url('./assets/image.png');
+  width: 100%;
+  height: 608px;
+  margin-top: 45px;;
+}
+ .gin{
+  text-align: center;
+  padding-top: 88px;
+  font-family: 'Jaro', serif;
+  font-size: 55px;
+  font-weight: 600;
+ }
+ .su{
+  padding-top:290px;
+  padding-left:59px ;
+  font-weight: 600;
+  font-size: 48px;
+ }
+ .cmm{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left:59px ;
+  gap: 10px;
+  
+ }
+ footer{
+  width: 100%;
+  height: 785px;
+  background-color: black;
+  margin-top: 45px;
+ }
+ .spo{
+  text-align: center;
+  padding-top: 35px;
+ }
+
+ .sors{
+  margin-top: 38px auto;
+  width: 100%;
+ }
+
+ .cbrem{
+  text-align: left;
+  padding-top: 17px;
+  padding-left: 64px;
+ }
+
+ .cbrem span{
+  color:#c41e3a
+
+ }
+
+ .for-fo{
+  display:  flex;
+  justify-content: start;
+  align-items: start;
+  gap:215px;
+  padding-left: 300px;
+  padding-top: 94.38px;
+ }
+
+ .for-p{
+  line-height: 55px;
+ }
+
+ .time{
+  font-size: 30px;
+ 
+ }
+ .time:hover{
+  color:#f22222;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+ }
+ .brem{
+  padding-top: 70px;
+  text-align: center;
+ }
+
+ .res{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+ }
+ .tui{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 33px;
+ }
+
+ @media(max-width:1376px){
+  .player{
+    margin-left: -150px;
+  
+  }
+  .for-fo{
+    display:  flex;
+    justify-content: center;
+    align-items:start;
+    gap:115px;
+    padding-left: 0;
+    padding-top: 94.38px;
+    flex-wrap: wrap;
+   
+   }
+   footer{
+    height: auto
+   }
+  
+ }
+ @media(max-width:1231px){
+  .player{
+ display: none;
+  
+  }
+}
+
+@media(max-width:768px){
+  
+  .hamburger{
+    display: block;
+  }
+
+  .lii{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left:-100%;
+    width: 100%;
+   
+    padding: 0;
+    height: 60vh;
+    background-color: #111111;
+    transition:  0.3s ease-in-out;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  
+  .lii.active{
+    left:1px;
+    
+    
+  }
+
+}
+@media(max-width:480px){
+  .mf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .vp{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .bground{
+  height: auto;
+  }
+  .hui{
+    width:70%
+  }
+  .for-fl{
+    margin-left: 30px;
+  }
+  .cbrem{
+    text-align: center;
+    padding-left: 0;
+  }
+  .cmm,.su{
+   padding-left: 10px;
+  }
+}
